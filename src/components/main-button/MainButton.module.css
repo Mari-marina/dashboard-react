@@ -1,0 +1,11 @@
+.mainButton {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #503e9d;
+  border: none;
+}
+
+.arrowIcon {
+  margin-left: 10px;
+}

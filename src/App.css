@@ -1,0 +1,40 @@
+.App {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 304px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    "s h"
+    "s c";
+}
+
+.header {
+  grid-area: h;
+}
+.sidebar {
+  grid-area: s;
+  background-color: #f8f8f8;
+}
+.main {
+  grid-area: c;
+  padding: 32px;
+}
+
+.block-content,
+.block-news {
+  display: grid;
+  grid-template-columns: repeat(3, 336px);
+  gap: 32px;
+}
+.channels-block {
+  display: grid;
+  grid-template-columns: repeat(6, 152px);
+  gap: 32px;
+}
+
+.titleWrapp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1080px;
+}

@@ -1,0 +1,11 @@
+.channels {
+  background-color: #f7f7f7;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.titleChannels {
+  padding-bottom: 16px;
+}

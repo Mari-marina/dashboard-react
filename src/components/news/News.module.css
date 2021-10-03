@@ -1,0 +1,17 @@
+.infoWrap {
+  display: flex;
+  width: 336px;
+  justify-content: space-between;
+}
+.wrapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.previewImg {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
