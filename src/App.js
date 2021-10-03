@@ -19,13 +19,22 @@ import icon3 from "./assets/images/icon3.png";
 import icon4 from "./assets/images/icon4.png";
 import icon5 from "./assets/images/icon5.png";
 import icon6 from "./assets/images/icon6.png";
+import miniIcon1 from "./assets/images/miniIcon1.png";
+import miniIcon2 from "./assets/images/miniIcon2.png";
+import miniIcon3 from "./assets/images/miniIcon3.png";
 
 function App() {
   return (
     <div className="App">
       <header className="header">
         <div className="headerFilter">
-          <Filter subTitle="San Francisco, California" />
+          <Filter miniIcon={miniIcon1} subTitle="San Francisco, California" />
+        </div>
+        <div className="headerFilter">
+          <Filter miniIcon={miniIcon2} subTitle="Analysis" />
+        </div>
+        <div className="headerFilter">
+          <Filter miniIcon={miniIcon3} subTitle="Monthly" />
         </div>
         <div className="headerWrap"></div>
       </header>

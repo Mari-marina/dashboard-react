@@ -11,6 +11,8 @@
 
 .header {
   grid-area: h;
+  display: flex;
+  padding: 32px;
 }
 .sidebar {
   grid-area: s;
@@ -36,5 +38,10 @@
 .titleWrapp {
   display: flex;
   justify-content: space-between;
-  max-width: 1080px;
+  max-width: 1070px;
+}
+.headerFilter {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }

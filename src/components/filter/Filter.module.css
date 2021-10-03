@@ -1,0 +1,20 @@
+.filterBtn {
+  display: flex;
+  flex-direction: column;
+  width: 10px;
+  margin-left: 10px;
+}
+.arrowIconTop {
+  transform: rotate(-90deg);
+}
+.arrowIconBottom {
+  transform: rotate(90deg);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+.aimIcon {
+  margin-right: 12px;
+}
