@@ -51,3 +51,20 @@
   margin-bottom: 32px;
   margin-top: 32px;
 }
+.logo {
+  padding: 38px 0 18px 60px;
+}
+
+.asideBtn {
+  width: 272px;
+  height: 56px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 32px;
+}
+.asideText {
+  margin-left: 24px;
+}

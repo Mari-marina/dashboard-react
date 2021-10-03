@@ -11,28 +11,40 @@ function Navigation(props) {
     <div className={style.wrapper}>
       <ul className={style.list}>
         <li className={style.item}>
-          <img className={style.itemImg} src={item1} alt="" />
-          Home
+          <button className={style.btn}>
+            <img className={style.navImg} src={item1} alt="" />
+            <p className={style.navText}>Home</p>
+          </button>
         </li>
         <li className={style.item}>
-          <img className={style.itemImg} src={item2} alt="" />
-          Explore
+          <button className={style.btn}>
+            <img className={style.navImg} src={item2} alt="" />
+            Explore
+          </button>
         </li>
         <li className={style.item}>
-          <img className={style.itemImg} src={item3} alt="" />
-          Saved
+          <button className={style.btn}>
+            <img className={style.navImg} src={item3} alt="" />
+            Saved
+          </button>
         </li>
         <li className={style.item}>
-          <img className={style.itemImg} src={item4} alt="" />
-          Subscriptions
+          <button className={style.btn}>
+            <img className={style.navImg} src={item4} alt="" />
+            Subscriptions
+          </button>
         </li>
         <li className={style.item}>
-          <img className={style.itemImg} src={item5} alt="" />
-          Messages
+          <button className={style.btn}>
+            <img className={style.navImg} src={item5} alt="" />
+            Messages
+          </button>
         </li>
         <li className={style.item}>
-          <img className={style.itemImg} src={item6} alt="" />
-          Settings
+          <button className={style.btn}>
+            <img className={style.navImg} src={item6} alt="" />
+            Settings
+          </button>
         </li>
       </ul>
     </div>

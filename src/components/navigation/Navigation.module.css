@@ -1,0 +1,35 @@
+.btn {
+  width: 272px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+
+  border-radius: 12px;
+  border: none;
+  background: transparent;
+}
+.list {
+  margin-left: 16px;
+  list-style-type: none;
+}
+
+.btn:hover {
+  background-color: #503e9d;
+  opacity: 0.3;
+}
+
+.navImg {
+  margin-left: 16px;
+  margin-right: 24px;
+}
+
+.navText {
+  font-size: 16px;
+  line-height: 24px;
+  color: #878787;
+  font-weight: bold;
+}
+.navText:hover {
+  color: #503e9d;
+  z-index: 11;
+}

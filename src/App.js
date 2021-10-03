@@ -25,6 +25,7 @@ import miniIcon1 from "./assets/images/miniIcon1.png";
 import miniIcon2 from "./assets/images/miniIcon2.png";
 import miniIcon3 from "./assets/images/miniIcon3.png";
 import logo from "./assets/images/logo.svg";
+import exit from "./assets/images/exit.svg";
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
       <aside className="sidebar">
         <img className="logo" src={logo} alt="" />
         <Navigation />
+        <button className="asideBtn">
+          <img className="asideImg" src={exit} alt="" />
+          <p className="asideText">Logout</p>
+        </button>
       </aside>
       <main className="main">
         <section className="channels">
