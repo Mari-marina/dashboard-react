@@ -1,0 +1,25 @@
+.personBtn {
+  border: none;
+  position: absolute;
+  top: 44px;
+  z-index: 10;
+  background-color: Transparent;
+}
+
+.personInput {
+  border-radius: 10px;
+  width: 385px;
+  height: 48px;
+  font-size: 14px;
+  border: none;
+  text-indent: 48px;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+}
+.memuIcon,
+.userIcon {
+  margin-left: 16px;
+}
