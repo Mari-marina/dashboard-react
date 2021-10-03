@@ -1,6 +1,8 @@
 import "./App.css";
+import Navigation from "./components/navigation/Navigation";
 import Headliner from "./components/headliner/Headliner";
 import Filter from "./components/filter/Filter";
+import Person from "./components/person/Person";
 import News from "./components/news/News";
 import Channels from "./components/channels/Channels";
 import MainButton from "./components/main-button/MainButton";
@@ -22,6 +24,7 @@ import icon6 from "./assets/images/icon6.png";
 import miniIcon1 from "./assets/images/miniIcon1.png";
 import miniIcon2 from "./assets/images/miniIcon2.png";
 import miniIcon3 from "./assets/images/miniIcon3.png";
+import logo from "./assets/images/logo.svg";
 
 function App() {
   return (
@@ -37,8 +40,12 @@ function App() {
           <Filter miniIcon={miniIcon3} subTitle="Monthly" />
         </div>
         <div className="headerWrap"></div>
+        <Person />
       </header>
-      <aside className="sidebar">aside</aside>
+      <aside className="sidebar">
+        <img className="logo" src={logo} alt="" />
+        <Navigation />
+      </aside>
       <main className="main">
         <section className="channels">
           <div className="titleWrapp">

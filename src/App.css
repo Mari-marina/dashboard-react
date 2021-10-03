@@ -13,6 +13,8 @@
   grid-area: h;
   display: flex;
   padding: 32px;
+  max-width: 1100px;
+  justify-content: space-between;
 }
 .sidebar {
   grid-area: s;
@@ -44,4 +46,8 @@
   display: flex;
   align-items: center;
   margin-right: 20px;
+}
+.titleWrapp {
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
