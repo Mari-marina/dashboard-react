@@ -1,6 +1,7 @@
 import "./App.css";
 import Navigation from "./components/navigation/Navigation";
 import Headliner from "./components/headliner/Headliner";
+import Profit from "./components/profit/Profit";
 import Filter from "./components/filter/Filter";
 import Person from "./components/person/Person";
 import News from "./components/news/News";
@@ -50,6 +51,7 @@ function App() {
           <img className="asideImg" src={exit} alt="" />
           <p className="asideText">Logout</p>
         </button>
+        <Profit />
       </aside>
       <main className="main">
         <section className="channels">

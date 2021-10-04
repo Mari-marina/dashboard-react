@@ -18,7 +18,8 @@
 }
 .sidebar {
   grid-area: s;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
+  background-color: lightgreen;
 }
 .main {
   grid-area: c;
@@ -56,14 +57,16 @@
 }
 
 .asideBtn {
-  width: 272px;
   height: 56px;
   background: transparent;
   border: none;
   display: flex;
   align-items: center;
-  margin-top: 130px;
+  padding-top: 130px;
   margin-left: 32px;
+  padding-bottom: 37px;
+  border-bottom: 2px solid lightgray;
+  width: 236px;
 }
 .asideText {
   margin-left: 24px;
