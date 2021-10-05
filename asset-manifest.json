@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dashboard-react/static/css/main.9da4fbcd.chunk.css",
-    "main.js": "/dashboard-react/static/js/main.15f0317d.chunk.js",
-    "main.js.map": "/dashboard-react/static/js/main.15f0317d.chunk.js.map",
+    "main.css": "/dashboard-react/static/css/main.5cdff35a.chunk.css",
+    "main.js": "/dashboard-react/static/js/main.1b6863be.chunk.js",
+    "main.js.map": "/dashboard-react/static/js/main.1b6863be.chunk.js.map",
     "runtime-main.js": "/dashboard-react/static/js/runtime-main.154321b1.js",
     "runtime-main.js.map": "/dashboard-react/static/js/runtime-main.154321b1.js.map",
     "static/js/2.c871c8bc.chunk.js": "/dashboard-react/static/js/2.c871c8bc.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cbebd27e.chunk.js": "/dashboard-react/static/js/3.cbebd27e.chunk.js",
     "static/js/3.cbebd27e.chunk.js.map": "/dashboard-react/static/js/3.cbebd27e.chunk.js.map",
     "index.html": "/dashboard-react/index.html",
-    "static/css/main.9da4fbcd.chunk.css.map": "/dashboard-react/static/css/main.9da4fbcd.chunk.css.map",
+    "static/css/main.5cdff35a.chunk.css.map": "/dashboard-react/static/css/main.5cdff35a.chunk.css.map",
     "static/js/2.c871c8bc.chunk.js.LICENSE.txt": "/dashboard-react/static/js/2.c871c8bc.chunk.js.LICENSE.txt",
     "static/media/arrow.a5546329.svg": "/dashboard-react/static/media/arrow.a5546329.svg",
     "static/media/cloсk.0ae6cb9d.svg": "/dashboard-react/static/media/cloсk.0ae6cb9d.svg",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.154321b1.js",
     "static/js/2.c871c8bc.chunk.js",
-    "static/css/main.9da4fbcd.chunk.css",
-    "static/js/main.15f0317d.chunk.js"
+    "static/css/main.5cdff35a.chunk.css",
+    "static/js/main.1b6863be.chunk.js"
   ]
 }
