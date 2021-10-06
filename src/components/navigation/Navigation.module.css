@@ -7,6 +7,10 @@
   border-radius: 12px;
   border: none;
   background: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  color: #878787;
+  font-weight: bold;
 }
 .list {
   margin-left: 16px;
@@ -15,6 +19,8 @@
 
 .btn:hover {
   background-color: #8c80c0;
+  fill: #503e9d;
+  color: #503e9d;
 }
 
 .navImg {
