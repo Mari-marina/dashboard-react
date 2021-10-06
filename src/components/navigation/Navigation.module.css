@@ -20,6 +20,11 @@
 .navImg {
   margin-left: 16px;
   margin-right: 24px;
+  fill: #878787;
+}
+
+.navImg:hover {
+  fill: #503e9d;
 }
 
 .navText {
