@@ -18,6 +18,7 @@
 
 .wrapper {
   display: flex;
+  align-items: center;
 }
 .memuIcon,
 .userIcon {

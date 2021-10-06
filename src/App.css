@@ -71,3 +71,10 @@
 .asideText {
   margin-left: 24px;
 }
+
+.asideText {
+  font-size: 16px;
+  line-height: 24px;
+  color: #878787;
+  font-weight: bold;
+}

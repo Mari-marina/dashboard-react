@@ -33,12 +33,6 @@
   fill: #503e9d;
 }
 
-.navText {
-  font-size: 16px;
-  line-height: 24px;
-  color: #878787;
-  font-weight: bold;
-}
 .navText:hover {
   color: #503e9d;
   z-index: 11;
